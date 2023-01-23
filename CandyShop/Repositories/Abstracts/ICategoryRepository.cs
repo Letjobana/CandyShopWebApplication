@@ -6,6 +6,6 @@ namespace CandyShop.Repositories.Abstracts
 {
     public interface ICategoryRepository
     {
-        IEnumerable<Category>GetAllCategories()
+        IEnumerable<Category> GetAllCategories();
     }
 }
